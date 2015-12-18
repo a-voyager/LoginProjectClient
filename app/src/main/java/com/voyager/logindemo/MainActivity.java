@@ -45,8 +45,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 register();
                 break;
             case R.id.btn_login:
+                login();
                 break;
         }
+    }
+
+    /**
+     * 登录操作
+     */
+    private void login() {
+
     }
 
     private void register() {
